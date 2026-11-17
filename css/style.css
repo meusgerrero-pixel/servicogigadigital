@@ -1,0 +1,51 @@
+
+:root {
+  --jr-green: #39833c;
+  --jr-green-dark: #23652c;
+  --jr-orange: #f79400;
+  --jr-ink: #202820;
+  --jr-muted: #68736a;
+  --jr-soft: #f4f7f2;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--jr-ink); }
+a { text-decoration: none; }
+.topline { background: var(--jr-green-dark); color: #fff; font-size: .9rem; }
+.navbar { box-shadow: 0 3px 18px rgba(0,0,0,.06); }
+.navbar-brand img { width: 150px; max-height: 68px; object-fit: contain; }
+.nav-link { font-weight: 600; color: #344238; }
+.nav-link:hover, .nav-link.active { color: var(--jr-green); }
+.btn-jr { background: var(--jr-green); color: #fff; border: 0; font-weight: 700; }
+.btn-jr:hover { background: var(--jr-green-dark); color: #fff; }
+.btn-outline-jr { border: 2px solid var(--jr-green); color: var(--jr-green); font-weight: 700; }
+.btn-outline-jr:hover { background: var(--jr-green); color: #fff; }
+.hero { background: linear-gradient(100deg, rgba(18,40,21,.82), rgba(18,40,21,.40)), url('../img/banner-ferramentas.webp') center/cover no-repeat; color: #fff; min-height: 510px; display:flex; align-items:center; }
+.hero h1 { font-size: clamp(2.4rem, 5vw, 4.3rem); font-weight: 850; line-height: 1.04; max-width: 760px; }
+.hero p { font-size: 1.15rem; max-width: 650px; color: rgba(255,255,255,.9); }
+.eyebrow { color: var(--jr-orange); text-transform: uppercase; letter-spacing: .12em; font-weight: 800; font-size: .8rem; }
+.section-pad { padding: 78px 0; }
+.section-title { font-weight: 850; letter-spacing: -.03em; }
+.section-lead { color: var(--jr-muted); max-width: 720px; }
+.feature-card, .product-card, .info-card { border: 1px solid #e8eee7; border-radius: 18px; background: #fff; height: 100%; box-shadow: 0 8px 26px rgba(25,55,30,.045); }
+.feature-icon { width: 54px; height: 54px; display:grid; place-items:center; border-radius: 15px; background: #eaf4e9; color: var(--jr-green); font-size: 1.45rem; }
+.product-card img { width:100%; height: 210px; object-fit: cover; border-radius: 17px 17px 0 0; }
+.product-card .card-body { padding: 24px; }
+.soft-bg { background: var(--jr-soft); }
+.cta-band { background: linear-gradient(110deg, var(--jr-green-dark), var(--jr-green)); color:#fff; border-radius: 24px; }
+footer { background: #17231a; color: #dce6dc; }
+footer a { color: #dce6dc; }
+footer a:hover { color: var(--jr-orange); }
+.footer-title { color: #fff; font-weight: 800; }
+.page-hero { background: linear-gradient(110deg, #1f5f2b, #39833c); color:#fff; padding: 65px 0; }
+.legal-content { max-width: 900px; }
+.legal-content h2 { font-size: 1.35rem; font-weight: 800; margin-top: 2rem; }
+.legal-content p, .legal-content li { color: #526056; line-height: 1.75; }
+.contact-line { display:flex; gap:12px; align-items:flex-start; }
+.contact-line i { color:var(--jr-orange); font-size:1.2rem; }
+.small-note { color:#78847a; font-size:.9rem; }
+@media (max-width: 767px) {
+  .hero { min-height: 470px; }
+  .section-pad { padding: 55px 0; }
+  .navbar-brand img { width: 125px; }
+}

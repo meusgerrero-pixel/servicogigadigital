@@ -1,0 +1,23 @@
+JR COMÉRCIO DE CIMENTO E CONCRETO LTDA - SITE
+
+Arquivos:
+- index.html
+- sobre.html
+- politica-privacidade.html
+- termos-de-uso.html
+- css/style.css
+- img/ (imagens enviadas)
+
+Como visualizar:
+1. Extraia o arquivo ZIP.
+2. Abra index.html no navegador.
+
+Publicação:
+Envie todos os arquivos e pastas mantendo a estrutura para a hospedagem.
+As bibliotecas Bootstrap 5.3.3 e Bootstrap Icons são carregadas por CDN, portanto a visualização completa requer internet.
+
+Antes de anunciar no Google Ads:
+- Confirme que o domínio e os contatos estão corretos.
+- Revise a política de privacidade conforme cookies, formulários, Analytics, tags e pixels realmente instalados.
+- Revise os termos e as informações comerciais com responsável jurídico.
+- Não anuncie estoque, marcas, preços, entrega ou certificações que não tenham sido confirmados.
